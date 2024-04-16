@@ -1,0 +1,111 @@
+/* style.css */
+
+/* Boutons */
+QPushButton {
+    background-color: #373f37; /* Couleur de fond */
+    border: none; /* Pas de bordure */
+    color: white; /* Texte en blanc */
+    padding: 10px 24px; /* Remplissage intérieur */
+    text-align: center; /* Centrage du texte */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block;
+    font-size: 16px; /* Taille de la police */
+    margin: 4px 2px; /* Marge extérieure */
+    cursor: pointer; /* Curseur de souris */
+    border-radius: 8px; /* Coins arrondis */
+}
+
+QTextEdit {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Libellés */
+QLabel {
+    font-size: 18px; /* Taille de la police */
+}
+
+/* Liste déroulante */
+QListWidget {
+    background-color: #f0f0f0; /* Couleur de fond */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+QListWidget::item {
+    background-color: #fff; /* Couleur de fond des éléments */
+    padding: 5px; /* Remplissage intérieur */
+    margin-bottom: 2px; /* Marge inférieure */
+}
+
+QListWidget::item:selected {
+    background-color: #373f37; /* Couleur de fond des éléments sélectionnés */
+    color: white; /* Texte en blanc */
+}
+
+/* Menu déroulant */
+QComboBox {
+    background-color: #f0f0f0; /* Couleur de fond */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+    padding: 5px; /* Remplissage intérieur */
+    min-width: 6em; /* Largeur minimale */
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px; /* Largeur de la flèche de déroulement */
+    border-left-width: 1px; /* Bordure à gauche */
+    border-left-color: darkgray; /* Couleur de la bordure */
+    border-left-style: solid; /* Style de la bordure (ligne simple) */
+    border-top-right-radius: 3px; /* Coins arrondis */
+    border-bottom-right-radius: 3px;
+}
+
+QSlider {
+    background-color: #C0C0C0; /* Couleur de fond du slider */
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #A0A0A0; /* Bordure du groove horizontal */
+    background: #FFFFFF; /* Couleur de fond du groove horizontal */
+    height: 8px; /* Hauteur du groove horizontal */
+    margin: 2px 0; /* Marge du groove horizontal */
+}
+
+QSlider::handle:horizontal {
+    background: #6495ED; /* Couleur du handle horizontal */
+    border: 1px solid #4A708B; /* Bordure du handle horizontal */
+    width: 12px; /* Largeur du handle horizontal */
+    height: 16px; /* Hauteur du handle horizontal */
+    margin: -4px 0; /* Marge du handle horizontal */
+    border-radius: 7px; /* Rayon de la bordure du handle horizontal */
+}
+
+QSlider::sub-page:horizontal {
+    background: #6495ED; /* Couleur de la sous-page horizontal */
+}
+
+/* Style de base pour le champ de saisie */
+.input-equation {
+    width: 300px; /* Largeur du champ de saisie */
+    padding: 10px; /* Espacement interne */
+    font-size: 16px; /* Taille de la police */
+    border: 2px solid #ccc; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+/* Style lorsqu'il est en focus */
+.input-equation:focus {
+    outline: none; /* Supprime le contour du focus */
+    border-color: #007bff; /* Couleur de la bordure en focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombre en focus */
+}
+
+/* Style pour les erreurs de saisie */
+.input-equation.error {
+    border-color: #dc3545; /* Couleur de la bordure en cas d'erreur */
+}
