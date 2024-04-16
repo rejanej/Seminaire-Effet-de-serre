@@ -1,6 +1,6 @@
 # Seminaire-Effet-de-serre
 
-Ce projet a été réalisé par les étudiants Réjane Joyard, Océanne Bousquet, Yannis Lebrun, Alexis Alzuria, Grégoire Doat, Raphaël Barateau, Aurélien Loncq et Malik Masri.
+Ce projet a été réalisé par les étudiants Réjane Joyard, Océanne Bousquet, Yannis Lebrun, Alexis Alzuria, Raphaël Barateau et Aurélien Loncq.
 
 Il s'inscrit dans le cadre de l'enseignement Séminaires Juniors du Master MIX de La Rochelle Université qui amène les étudiants à explorer le monde de la recherche aussi bien d'un point de vue bibliographique
 que de celui de la restitution d'une problématique spécifique.
